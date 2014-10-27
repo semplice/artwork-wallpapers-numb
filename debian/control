@@ -1,0 +1,15 @@
+Source: semplice-artwork-wallpapers-numb
+Section: misc
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://semplice-linux.org
+Vcs-Git: https://github.com/semplice/artwork-wallpapers-numb.git
+Vcs-Browser: https://github.com/semplice/artwork-wallpapers-numb
+
+Package: semplice-artwork-wallpapers-numb
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wallpaper pack for Semplice 7 "Comfortably Numb"
+ This package contains the "semplice-numb" wallpaper pack.
